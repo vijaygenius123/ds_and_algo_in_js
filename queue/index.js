@@ -29,6 +29,7 @@ function createQueue() {
     }
 }
 
+/*
 const todos = createQueue()
 console.log(todos.isEmpty())
 todos.enqueue("Task 1")
@@ -41,3 +42,8 @@ console.log(todos.dequeue())
 console.log(todos.dequeue())
 console.log(todos.dequeue())
 console.log(todos.peek())
+*/
+
+module.exports = {
+    createQueue
+}
